@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+.odd-num {
+    background-color: rgb(232, 180, 189);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#dos {
+    color: rgb(59, 59, 210);
+    font-size: 36px;
+}
+
+.big-font {
+    font-size: 24px;
+}
+
+#unlucky {
+    background-color: rgb(153, 214, 153);
+    font-weight: bold;
+}
