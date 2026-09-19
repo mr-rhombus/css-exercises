@@ -119,6 +119,13 @@
 
 .sidebar {
   grid-area: 2 / 1 / -2 / 2;
+  display: grid;
+  grid-template-rows: repeat(1fr, 4);
+  gap: 50px;
+}
+
+.sidebar > div {
+  align-content: center;
 }
 
 .article {
