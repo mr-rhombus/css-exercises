@@ -128,6 +128,15 @@
   align-content: center;
 }
 
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.nav li {
+  list-style: none;
+}
+
 .article {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
